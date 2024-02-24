@@ -360,4 +360,76 @@ ul li{
     .s2{
       margin-top: 100px;
     }
+    .app {
+      background-color: #e21b70;
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 10px;
+      border-radius: 20px;
+    }
+    .appsicon{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      color: #FF2B85;
+      font-size: 18px;
+      font-weight: 900;
+    }
+    .footer2{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      border-top: 1px solid rgba(0, 0, 0, 0.123);
+    }
+    .f22{
+      display: grid;
+      gap: 10px;
+      text-align: center;
+    }
+    .imgtext {
+      position: absolute;
+      font-size: 10px;
+      width: 90%;
+      background-color: white;
+      margin-top: 100px;
+      margin-left: 15px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+    }
+    .bgimg {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background-image: url(./Images/home-vendor-bd.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .pichead {
+      margin-top: 300px;
+      margin-left: 20px;
+      font-size: 22px;
+      color: rgba(0, 0, 0, 0.699);
+    }
+    
+    .imgtext2 {
+      position: absolute;
+      width: 100%;
+      background-color: white;
+      margin-top: 320px;
+      margin-left: 0px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+    }
+.noview{
+  display: none;
+}
 }
