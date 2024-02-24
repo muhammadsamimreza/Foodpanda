@@ -263,3 +263,101 @@ ul li{
   display: flex;
   gap: 10px;
 }
+
+
+/* media quary */
+@media screen and (max-width:425px) {
+  .picture {
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      
+
+    }
+    .picture img {
+      width: 170px;
+      height: 200px;
+      border-radius: 20px;
+    }
+
+    .logo {
+      width: 0px;
+    }
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+  
+    .text {
+      font-size: 18px;
+      font-weight: 900;
+    }
+    .button {
+      background-color: transparent;
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      border: 1px solid white;
+      border-radius: 10px;
+      
+    }
+    div h1 {
+      font-size: 25px;
+      color: rgba(0, 0, 0, 0.541);
+    }
+    .h1 {
+      width: 50%;
+      height: 100px;
+    }
+
+    .h2 {
+      width: 50%;
+      background-image: url(./Images/refresh-hero-home-bd.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 170px;
+    }
+    .search1 {
+      width: 100%;
+      display:grid;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+      padding: 0px;
+      border-radius: 0px;
+      box-shadow: none;
+    }
+    .search2 {
+      position: absolute;
+      width: 90%;
+      display: flex;
+      gap: 0px;
+      background-color: white;
+      border: 1px solid rgba(0, 0, 0, 0.123);
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: -40px;
+    }
+    .input {
+      border: none;
+      width: 240px;
+      background-color: transparent;
+      padding-right: 20px;
+    }
+    .findfood {
+      width: 90%;
+      margin-top: 10px;
+      position: absolute;
+      border: none;
+      background-color: #e21b70;
+      color: white;
+      font-weight: 900;
+      padding: 10px 15px;
+      border-radius: 5px;
+    }
+    .s2{
+      margin-top: 100px;
+    }
+}
