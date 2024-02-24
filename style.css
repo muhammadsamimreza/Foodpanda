@@ -432,4 +432,23 @@ ul li{
 .noview{
   display: none;
 }
+.icon{
+  display: none;
+}
+
+.navbar{
+  display: flex;
+ 
+  
+}
+.manicon{
+  order: 3 ;
+}
+.pandaicon{
+  order: 2;
+}
+.shopbag{
+  order: 1;
+}
+
 }
