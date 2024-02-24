@@ -1,0 +1,265 @@
+*{
+  box-sizing: border-box;
+}
+.hearder {
+  background-color: #e21b70;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 20px;
+  color: white;
+}
+.text {
+  font-size: 22px;
+  font-weight: 900;
+}
+.logo {
+  width: 35px;
+}
+.button {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid white;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.pandaicon{
+  display: flex;
+  align-items: center;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+  gap: 25px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+}
+.login {
+  border: 1px solid #e21b70;
+  color: #e21b70;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.signup {
+  border: none;
+  background-color: #e21b70;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.home {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.034);
+  align-items: center;
+  padding: 0 20px;
+}
+div h1 {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.541);
+}
+.h1 {
+  width: 55%;
+  height: 200px;
+}
+.h2 {
+  width: 45%;
+  background-image: url(./Images/refresh-hero-home-bd.png);
+  background-size: cover;
+  height: 420px;
+}
+.search1 {
+  width: 95%;
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+}
+.search2 {
+  display: flex;
+  gap: 50px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.input {
+  border: none;
+  width: 220px;
+  background-color: transparent;
+  padding-right: 20px;
+}
+.findfood {
+  border: none;
+  background-color: #e21b70;
+  color: white;
+  font-weight: 900;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+div span {
+  color: #e21b70;
+}
+.bgimg {
+  position: relative;
+  height: 550px;
+  background-image: url(./Images/home-vendor-bd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgtext {
+  position: absolute;
+  width: 60%;
+  background-color: white;
+  margin-top: 350px;
+  margin-left: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+}
+.title h2 {
+  font-size: 30px;
+  padding: 10px;
+}
+p {
+  font-size: 20px;
+}
+.picture {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  place-items: center;
+  row-gap: 20px;
+  
+}
+.pichead {
+  margin-top: 200px;
+  margin-left: 20px;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.699);
+}
+.picture img {
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+.app {
+  background-color: #e21b70;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  border-radius: 20px;
+}
+.qr {
+  width: 80px;
+  height: 70px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.appimg {
+  width: 300px;
+}
+.qrflex{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.appsicon{
+  display: flex;
+  gap: 10px;
+}
+.appsection{
+  color: white;
+}
+.bgimg2 {
+  position: relative;
+  height: 450px;
+  background-image: url(./Images/home-corporate-bd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imgtext2 {
+  position: absolute;
+  width: 60%;
+  background-color: white;
+  margin-top: 320px;
+  margin-left: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.315);
+}
+.hh{
+  font-size: 24px;
+  color: black;
+}
+.hht{
+  color: rgba(0, 0, 0, 0.863);
+}
+h2{
+  color: black;
+}
+.article{
+  margin-top: 150px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.637);
+}
+ul li{
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  
+}
+.list li{
+  color: rgba(0, 0, 0, 0.486);
+  font-size: 18px;
+}
+.list{
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  color: #FF2B85;
+  font-size: 18px;
+  font-weight: 900;
+}
+.footer2{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+}
+.f22{
+  display: flex;
+  gap: 10px;
+}
